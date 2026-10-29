@@ -1,0 +1,45 @@
+
+Logistic Regression
+----------------------------------------
+Accuracy: 0.8347
+Precision: 0.1365
+Recall: 0.7255
+F1-score: 0.2298
+PR-AUC: 0.3829
+ROC-AUC: 0.8750
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.84      0.91      1449
+           1       0.14      0.73      0.23        51
+
+    accuracy                           0.83      1500
+   macro avg       0.56      0.78      0.57      1500
+weighted avg       0.96      0.83      0.88      1500
+
+
+
+Random Forest
+----------------------------------------
+Accuracy: 0.9753
+Precision: 0.6667
+Recall: 0.5490
+F1-score: 0.6022
+PR-AUC: 0.6820
+ROC-AUC: 0.9700
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99      1449
+           1       0.67      0.55      0.60        51
+
+    accuracy                           0.98      1500
+   macro avg       0.83      0.77      0.79      1500
+weighted avg       0.97      0.98      0.97      1500
+
+
+
+MODEL COMPARISON
+              Model  Accuracy  Precision  Recall     F1  PR-AUC  ROC-AUC
+      Random Forest    0.9753     0.6667  0.5490 0.6022  0.6820    0.970
+Logistic Regression    0.8347     0.1365  0.7255 0.2298  0.3829    0.875
